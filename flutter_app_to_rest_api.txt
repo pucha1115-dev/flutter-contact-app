@@ -1,0 +1,13 @@
+connecting flutter web app to api in localhost please do the steps below
+
+1- Go to flutter\bin\cache and remove a file named: flutter_tools.stamp
+2- Go to flutter\packages\flutter_tools\lib\src\web and open the file chrome.dart.
+3- Find '--disable-extensions'
+4- Add '--disable-web-security'
+5- https://docs.flutter.dev/development/data-and-backend/networking
+
+connecting flutter android/ios app to localhost api please see link below
+https://medium.com/@podcoder/connecting-flutter-application-to-localhost-a1022df63130
+
+flutter fetch api data
+https://docs.flutter.dev/cookbook/networking/fetch-data
